@@ -1,0 +1,211 @@
+*, *:before, *:after
+    box-sizing: border-box
+
+html
+    font-size: 15px
+
+body
+    min-width: 1050px // временная заглушка
+    margin: 0
+    font-family: 'Roboto', sans-serif
+    font-size: 1rem
+    line-height: 1.6
+
+h1, h2, h3, h4, h5, h6, p
+    margin: 0
+
+ul, ol
+    padding: 0
+    margin: 0
+
+.container
+    max-width: 1020px
+    margin: 0 auto
+    padding: 0 15px
+
+.header
+    padding-top: 38px
+    padding-bottom: 156px
+    background: linear-gradient(180deg,rgba(198, 35, 20, 0.87),rgba(198, 35, 20, 0.87)), url("../img/background.jpg") no-repeat top center /cover
+    // &__wrap
+    &__head
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 94px
+        margin-bottom: 132px
+    // &__logo
+    // &__nav
+    &__title
+        color: #fff
+        font-family: 'Montserrat', sans-serif
+        font-weight: 700
+        font-size: 90px
+        line-height: 80px
+        max-width: 530px
+        margin-bottom: 47px
+        &-black
+            color: #111
+    &__text
+        max-width: 500px
+        color: #fff
+        font-family: 'PT Serif', serif
+        font-size: 19px
+        line-height: 28px
+        font-weight: 400
+
+.nav
+    display: flex
+    &__item
+        font-family: 'Montserrat', sans-serif
+        font-size: 18px
+        font-weight: 400
+        padding: 7px 15px
+        color: #fff
+        text-decoration: none
+        transition: all .3s linear
+        &:hover
+            background-color: #130e27
+            border-radius: 5px
+
+.service
+    padding-top: 45px
+    padding-bottom: 68px
+    &__title
+        font-family: 'Montserrat', sans-serif
+        font-size: 50px
+        font-weight: 700
+        margin-bottom: 90px
+        &-red
+            color: #c62314
+    &__card
+        display: flex
+        justify-content: space-between
+    &__item
+        max-width: 163px
+        list-style: none
+        text-align: center
+    &__img
+        // display: flex
+        // align-items: center
+        // justify-content: center
+        height: 155px
+        margin-bottom: 45px
+    &__text
+        font-family: 'PT Serif', serif
+        line-height: 1.4
+        color: #161616
+        font-weight: 400
+        font-size: 18px
+
+.story
+    background-color: #130e27
+    padding-top: 30px
+    padding-bottom: 30px
+    &__wrap
+        display: flex
+        justify-content: space-between
+    &__text
+        color: #fff
+        font-family: 'PT Serif', serif
+        line-height: 1.4
+        font-weight: 400
+        font-size: 18px
+        max-width: 600px
+    &__btn
+        background-color: #c62314
+        padding: 12px 65px
+        border-radius: 5px
+        font-family: 'Montserrat', sans-serif
+        font-size: 20px
+        color: #fff
+        text-decoration: none
+        transition: all .3s linear
+        &:hover
+            background-color: #68130b
+        &:active
+            background-color: #dd3020
+
+.pricing
+    padding-top: 45px
+    padding-bottom: 65px
+    background-color: #efefef
+    &__title
+        font-family: 'Montserrat', sans-serif
+        font-size: 50px
+        font-weight: 700
+        margin-bottom: 45px
+        text-align: center
+    // &__card
+
+.pricing-card
+    display: flex
+    justify-content: space-between
+    &__item
+        position: relative
+        padding-top: 30px
+        padding-bottom:  10px
+        max-width: 318px
+        height: 391px
+        background-color: #fff
+        border-radius: 5px
+        list-style: none
+        text-align: center
+    &__subtitle
+        color: #161616
+        font-family: 'PT Serif', serif
+        line-height: 1.4
+        font-weight: 400
+        font-size: 22px
+        margin-bottom: 10px
+    &__title
+        font-family: Montserrat, sans-serif
+        font-size: 60px
+        font-weight: bold
+        letter-spacing: -1.2px
+        color: #c62314
+        margin-bottom: 10px
+    &__text
+        color: #161616
+        font-family: 'PT Serif', serif
+        line-height: 1.4
+        font-weight: 400
+        font-size: 18px
+        padding: 0 67px
+    &__btn
+        display: block
+        position: absolute
+        bottom: 20px
+        right: 50%
+        transform: translateX(50%)
+        background-color: #c62314
+        width: 205px
+        padding: 6px 
+        border-radius: 5px
+        box-sizing: border-box
+        font-family: 'Montserrat', sans-serif
+        font-size: 20px
+        color: #fff
+        text-decoration: none
+        transition: all .3s linear
+        &:hover
+            background-color: #68130b
+        &:active
+            background-color: #dd3020
+
+
+.footer
+    background-color: #130e27
+    &__wrap 
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__text 
+        color: #ffffff
+        font-family: 'PT Serif', serif
+        font-weight: 400
+        font-size: 18px
+        padding: 70px 0
+        &-red
+            color:#c62314
+    // &__logo 
