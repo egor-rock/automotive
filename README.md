@@ -1,6 +1,3 @@
-# automotive
-itdoctor-lesson3.6
-
 Учебный макет из курса ITDoctor - Frontend разработчик на HTML, CSS и JavaScript
 https://stepik.org/course/113402/info
 
